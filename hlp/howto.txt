@@ -1,0 +1,19 @@
+1) In resource.h, find IDD_XXX for dialog for which you want to add
+   a help file.
+
+2) Create a line in the [MAP] section of megatune.hpj that
+   looks like:
+
+      IDH_XXX id=IDD_XXX+0x20000
+
+3) Add an entry in megatune.cnt that refers to IDH_XXX.
+
+4) Use "template.rtf" to create an rtf file with a footnote containing
+   #IDH_XXX.
+
+5) Edit megatune.hpj in the [FILES] section to include your new rtf
+   file.
+
+6) Edit megatune.cnt to add a reference to IDH_XXX so that it has some
+   structure in the index.  (This is not strictly necessary, since the
+   IDH up in step 2 associates the F1 key to the file, but do it anyway.)

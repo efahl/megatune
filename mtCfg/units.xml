@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>"
+<UnitsConversion fileFormat="units10" xmlns="http://www.msefi.com/:units10">
+   <!-- isoValue   = userValue / scale - translate -->
+   <!-- userValue = (isoValue + translate) * scale -->
+
+   <Unit name="%"       scale="0.05"      translate="0.0"      />
+   <Unit name="%/s"     scale="0.05"      translate="0.0"      />
+   <Unit name="AFR"     scale="2.0"       translate="5.0"      />
+   <Unit name="afr"     scale="2.0"       translate="5.0"      />
+   <Unit name="cycles"  scale="0.5"       translate="0.0"      />
+   <Unit name="deg"     scale="1.0"       translate="0.0"      />
+   <Unit name="Hz"      scale="1.0"       translate="0.0"      />
+   <Unit name="K"       scale="1.0"       translate="0.0"      />
+   <Unit name="kelvin"  scale="1.0"       translate="0.0"      />
+   <Unit name="kPa"     scale="1.0"       translate="0.0"      />
+   <Unit name="kPa/s"   scale="1.0"       translate="0.0"      />
+   <Unit name="ms"      scale="0.001"     translate="0.0"      />
+   <Unit name="mS"      scale="0.001"     translate="0.0"      />
+   <Unit name="ms/v"    scale="0.001"     translate="0.0"      />
+   <Unit name="mS/v"    scale="0.001"     translate="0.0"      />
+   <Unit name="PSI"     scale="0.1450777" translate="-101.325" />
+   <Unit name="r100"    scale="0.01"      translate="0.0"      />
+   <Unit name="revs"    scale="1.0"       translate="0.0"      />
+   <Unit name="rankine" scale="1.6828483" translate="0.0"      />
+   <Unit name="rpm"     scale="1.0"       translate="0.0"      />
+   <Unit name="RPM"     scale="1.0"       translate="0.0"      />
+   <Unit name="RPM/sec" scale="1.0"       translate="0.0"      />
+   <Unit name="s"       scale="1.0"       translate="0.0"      />
+   <Unit name="sec"     scale="1.0"       translate="0.0"      />
+   <Unit name="TPS"     scale="1.0"       translate="0.0"      />
+   <Unit name="tps%"    scale="1.0"       translate="0.0"      />
+   <Unit name="us"      scale="0.000001"  translate="0.0"      />
+   <Unit name="v"       scale="1.0"       translate="0.0"      />
+   <Unit name="V"       scale="1.0"       translate="0.0"      />
+   <Unit name="V/s"     scale="1.0"       translate="0.0"      />
+   <Unit name="°C"      scale="1.0"       translate="-273.15"  />
+   <Unit name="°F"      scale="1.8"       translate="-255.37"  />
+</UnitsConversion>

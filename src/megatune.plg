@@ -1,0 +1,89 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: megatune - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\efahl\LOCALS~1\Temp\RSP327.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/megatune.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"S:\megasquirt\pcc\3.00\units.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\efahl\LOCALS~1\Temp\RSP327.tmp" 
+Creating temporary file "C:\DOCUME~1\efahl\LOCALS~1\Temp\RSP328.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/megatune.pdb" /debug /machine:I386 /out:"Debug/megatune.exe" /pdbtype:sept 
+.\Debug\aeWizard.obj
+.\Debug\AnalogMeter.obj
+.\Debug\Application.obj
+.\Debug\BarMeter.obj
+.\Debug\burstLog.obj
+.\Debug\byteString.obj
+.\Debug\COMSymbol.obj
+.\Debug\controller.obj
+.\Debug\curveEditor.obj
+.\Debug\Dabout.obj
+.\Debug\dataDialog.obj
+.\Debug\datalog.obj
+.\Debug\Dconplot.obj
+.\Debug\Dconstants.obj
+.\Debug\Denrichments.obj
+.\Debug\dirSelect.obj
+.\Debug\DlogOptions.obj
+.\Debug\Dreqfuel.obj
+.\Debug\Druntime.obj
+.\Debug\Dsetcomm.obj
+.\Debug\tuning3D.obj
+.\Debug\DveGen.obj
+.\Debug\gaugeConfig.obj
+.\Debug\genO2.obj
+.\Debug\genTherm.obj
+.\Debug\hexedit.obj
+.\Debug\injControl.obj
+.\Debug\injectorSize.obj
+.\Debug\megatune.obj
+.\Debug\megatuneDlg.obj
+.\Debug\miniDOM.obj
+.\Debug\miniTerm.obj
+.\Debug\msComm.obj
+.\Debug\msDatabase.obj
+.\Debug\msqInfoDlg.obj
+.\Debug\parser.obj
+.\Debug\plot3d.obj
+.\Debug\portEdit.obj
+.\Debug\repository.obj
+.\Debug\scaleVe.obj
+.\Debug\selectList.obj
+.\Debug\Splash.obj
+.\Debug\StdAfx.obj
+.\Debug\symbol.obj
+.\Debug\tableEditor.obj
+.\Debug\tokenizer.obj
+.\Debug\tpgen.obj
+.\Debug\transformTable.obj
+.\Debug\triggerWizard.obj
+.\Debug\userDefined.obj
+.\Debug\userHelp.obj
+.\Debug\userMenu.obj
+.\Debug\vegen.obj
+.\Debug\Vex.obj
+.\Debug\wueWizard.obj
+.\Debug\megatune.res
+.\Debug\genMAF.obj
+.\Debug\units.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\efahl\LOCALS~1\Temp\RSP328.tmp"
+<h3>Output Window</h3>
+Compiling...
+units.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+megatune.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

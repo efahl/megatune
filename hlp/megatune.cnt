@@ -1,0 +1,33 @@
+:Base MegaTune
+:Title MegaTune Tuning Software
+1 Using MegaTune
+2 Getting Started=IDH_STARTING
+2 Using MegaTune=IDH_MEGATUNE
+2 Selecting A Project=IDH_SELECT_LIST
+2 Initialization Files=IDH_INIT_FILES
+2 Communications=IDH_SETCOMM
+2 Mini-Terminal Usage=IDH_MINITERM
+2 Configuration Values=IDH_CONFIG
+2 Datalogging Options=IDH_LOG_OPTIONS
+2 Setting MS Data
+3 Constants=IDH_CONSTANTS
+3 Required Fuel=IDH_REQFUEL
+3 Enrichments and Corrections=IDH_ENRICHMENTS
+3 VE Table=IDH_VETABLE
+3 Contour Plot=IDH_CONPLOT
+3 User-Defined Values=IDH_USER_DEFINED
+2 Configuration Tools
+3 TPS Calibration=IDH_TP_CALIBRATE
+3 VE Table Generator=IDH_VE_GEN
+3 VE Table Scaling=IDH_VE_SCALE
+2 Realtime Data From MS
+3 Runtime Variables=IDH_RUNTIME
+3 Warmup Wizard=IDH_COLDSTART
+3 Tuning=IDH_TUNING
+3 Trigger Wizard=IDH_TRIGGER_WIZARD
+2 Debug Features
+3 Memory Editor=IDH_HEXEDIT
+1 Customizing MegaTune
+2 Expressions=IDH_EXPRESSIONS
+2 Gauge Configuration=IDH_GAUGECONFIG
+2 Gauge Frames=IDH_GAUGEFRAME

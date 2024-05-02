@@ -1,0 +1,24 @@
+HKCR
+{
+	Megatune.Application.1 = s 'Application Class'
+	{
+		CLSID = s '{FBBD4DEF-D556-48CF-8B96-68D4CD93D67A}'
+	}
+	Megatune.Application = s 'Application Class'
+	{
+		CLSID = s '{FBBD4DEF-D556-48CF-8B96-68D4CD93D67A}'
+		CurVer = s 'Megatune.Application.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {FBBD4DEF-D556-48CF-8B96-68D4CD93D67A} = s 'Application Class'
+		{
+			ProgID = s 'Megatune.Application.1'
+			VersionIndependentProgID = s 'Megatune.Application'
+			ForceRemove 'Programmable'
+			LocalServer32 = s '%MODULE%'
+			val AppID = s '{FA523E74-4AED-4A0F-8D00-CF39B24974A5}'
+			'TypeLib' = s '{1564034E-05AC-485D-9B9B-96A04A712A71}'
+		}
+	}
+}

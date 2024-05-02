@@ -1,0 +1,1 @@
+zip -9 yy.zip userMenu.cpp megatune.cpp symbol.h symbol.cpp miniDOM.cpp repository.cpp msDatabase.cpp wueWizard.h wueWizard.cpp mtSplash.bmp controller.cpp AnalogMeter.cpp AnalogMeter.h stringConstants.h userDefined.h userDefined.cpp resource.h megatune.rc megatune.aps megatune.plg megatune.clw megatuneDlg.cpp megatuneDlg.h

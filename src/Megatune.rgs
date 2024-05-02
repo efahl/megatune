@@ -1,0 +1,11 @@
+HKCR
+{
+   NoRemove AppID
+   {
+      {FA523E74-4AED-4A0F-8D00-CF39B24974A5} = s 'Megatune'
+      'Megatune.EXE'
+      {
+         val AppID = s {FA523E74-4AED-4A0F-8D00-CF39B24974A5}
+      }
+   }
+}

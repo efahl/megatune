@@ -1,0 +1,24 @@
+HKCR
+{
+	Megatune.Symbol.1 = s 'Symbol Class'
+	{
+		CLSID = s '{9D9D230F-83AA-4E61-BB27-036272CB7381}'
+	}
+	Megatune.Symbol = s 'Symbol Class'
+	{
+		CLSID = s '{9D9D230F-83AA-4E61-BB27-036272CB7381}'
+		CurVer = s 'Megatune.Symbol.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {9D9D230F-83AA-4E61-BB27-036272CB7381} = s 'Symbol Class'
+		{
+			ProgID = s 'Megatune.Symbol.1'
+			VersionIndependentProgID = s 'Megatune.Symbol'
+			ForceRemove 'Programmable'
+			LocalServer32 = s '%MODULE%'
+			val AppID = s '{333EF558-8A22-4847-9C1F-88EF071379C5}'
+			'TypeLib' = s '{C3BC6FF2-FBE4-46D0-937E-1DE6FFD80604}'
+		}
+	}
+}

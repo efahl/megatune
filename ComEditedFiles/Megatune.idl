@@ -1,0 +1,79 @@
+
+   // Megatune.idl : IDL source for Megatune.exe
+//
+// This file will be processed by the MIDL tool to
+// produce the type library (Megatune.tlb) and marshalling code.
+import "oaidl.idl";
+import "ocidl.idl";
+
+interface ISymbol;
+
+   [
+      object,
+      uuid(97E8E3EE-90BC-4A82-AD77-36622E11B284),
+      dual,
+      helpstring("ISymbol Interface"),
+      pointer_default(unique)
+   ]
+   interface ISymbol : IDispatch
+   {
+      [propget, id( 1), helpstring("property Name")       ] HRESULT Name       ([out, retval] BSTR *pVal);
+      [propget, id( 2), helpstring("property Units")      ] HRESULT Units      ([out, retval] BSTR *pVal);
+      [propget, id( 3), helpstring("property Lo")         ] HRESULT Lo         ([out, retval] double *pVal);
+      [propget, id( 4), helpstring("property Hi")         ] HRESULT Hi         ([out, retval] double *pVal);
+      [propget, id( 5), helpstring("property Digits")     ] HRESULT Digits     ([out, retval] short *pVal);
+      [propget, id( 6), helpstring("property Scale")      ] HRESULT Scale      ([out, retval] double *pVal);
+      [propget, id( 7), helpstring("property Translate")  ] HRESULT Translate  ([out, retval] double *pVal);
+      [propget, id( 8), helpstring("property Label")      ] HRESULT Label      ([out, retval] BSTR *pVal);
+      [propget, id( 9), helpstring("property Value")      ] HRESULT Value      ([in] int Index, [out, retval] double *pVal);
+      [propput, id( 9), helpstring("property Value")      ] HRESULT Value      ([in] int Index, [in] double newVal);
+      [propget, id(10), helpstring("property ValueRaw")   ] HRESULT ValueRaw   ([in] int Index, [out, retval] long *pVal);
+      [propput, id(10), helpstring("property ValueRaw")   ] HRESULT ValueRaw   ([in] int Index, [in] double newVal);
+      [propget, id(11), helpstring("property ValueString")] HRESULT ValueString([in] int Index, [out, retval] BSTR *pVal);
+      [propget, id(12), helpstring("property Rows")       ] HRESULT Rows       ([out, retval] int *pVal);
+      [propget, id(13), helpstring("property Cols")       ] HRESULT Cols       ([out, retval] int *pVal);
+      [propget, id(14), helpstring("property NoRange")    ] HRESULT NoRange    ([out, retval] BOOL *pVal);
+      [         id(15), helpstring("method Index")        ] HRESULT Index      ([in] int ix, [in] int iy, [out, retval] int* pVal);
+      [propget, id(16), helpstring("property IsBits")     ] HRESULT IsBits     ([out, retval] BOOL *pVal);
+      [propget, id(17), helpstring("property Size")       ] HRESULT Size       ([out, retval] int *pVal);
+      [propget, id(18), helpstring("property SizeOf")     ] HRESULT SizeOf     ([out, retval] int *pVal);
+      [propget, id(19), helpstring("property IsConst")    ] HRESULT IsConst    ([out, retval] BOOL *pVal);
+      [propget, id(20), helpstring("property nValues")    ] HRESULT nValues    ([out, retval] int *pVal);
+      [propget, id(21), helpstring("property Page")       ] HRESULT Page       ([out, retval] int *pVal);
+      [propget, id(22), helpstring("property Max")        ] HRESULT Max        ([out, retval] double *pVal);
+      [propget, id(23), helpstring("property Min")        ] HRESULT Min        ([out, retval] double *pVal);
+   }
+   [
+      object,
+      uuid(55CB6183-A34A-4FB6-B853-878734DDDD07),
+      dual,
+      helpstring("IApplication Interface"),
+      pointer_default(unique)
+   ]
+   interface IApplication : IDispatch
+   {
+      [id(1), helpstring("method Symbol")] HRESULT Symbol([in] BSTR Name, [out, retval] ISymbol **ppSymbol);
+      [id(2), helpstring("method BurnConst")] HRESULT BurnConst([in] int PageNo);
+      [id(3), helpstring("method GetConst")] HRESULT GetConst([in] int PageNo);
+      [propget, id(4), helpstring("property SymbolsCount")] HRESULT SymbolsCount([out, retval] int *pVal);
+      [propget, id(5), helpstring("property Symbols")] HRESULT Symbols([in] int Index, [out, retval] ISymbol* *pVal);
+   }
+[
+   uuid(1564034E-05AC-485D-9B9B-96A04A712A71),
+   version(1.0),
+   helpstring("Megatune 1.0 Type Library")
+]
+library Megatune
+{
+   importlib("stdole32.tlb");
+   importlib("stdole2.tlb");
+   
+   [
+      uuid(FBBD4DEF-D556-48CF-8B96-68D4CD93D67A),
+      helpstring("Application Class")
+   ]
+   coclass Application
+   {
+      [default] interface IApplication;
+   };
+};

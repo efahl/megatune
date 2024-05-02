@@ -1,0 +1,733 @@
+# Microsoft Developer Studio Generated Dependency File, included by megatune.mak
+
+.\aeWizard.cpp : \
+	".\aeWizard.h"\
+	".\BarMeter.h"\
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\Druntime.h"\
+	".\gaugeConfig.h"\
+	".\megatune.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\repository.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	".\tokenizer.h"\
+	".\userDefined.h"\
+	
+
+.\AnalogMeter.cpp : \
+	".\AnalogMeter.h"\
+	
+
+.\BarMeter.cpp : \
+	".\BarMeter.h"\
+	
+
+.\burstLog.cpp : \
+	".\burstLog.h"\
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\megatune.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	
+
+.\byteString.cxx : \
+	".\byteString.h"\
+	".\dataDialog.h"\
+	".\megatune.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	
+
+.\controller.cpp : \
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\gaugeConfig.h"\
+	".\megatune.h"\
+	".\miniDOM.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\parser.h"\
+	".\repository.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	".\tokenizer.h"\
+	
+
+.\curveEditor.cpp : \
+	".\AnalogMeter.h"\
+	".\BarMeter.h"\
+	".\byteString.h"\
+	".\controller.h"\
+	".\curveEditor.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\gaugeConfig.h"\
+	".\megatune.h"\
+	".\megatuneDlg.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\plot3d.h"\
+	".\repository.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	".\tokenizer.h"\
+	".\userHelp.h"\
+	
+
+.\Dabout.cpp : \
+	".\AnalogMeter.h"\
+	".\BarMeter.h"\
+	".\Dabout.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\gaugeConfig.h"\
+	".\megatune.h"\
+	".\megatuneDlg.h"\
+	".\repository.h"\
+	".\Splash.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	".\tokenizer.h"\
+	
+
+.\dataDialog.cpp : \
+	".\AnalogMeter.h"\
+	".\BarMeter.h"\
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\megatune.h"\
+	".\megatuneDlg.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	".\userHelp.h"\
+	
+
+.\datalog.cxx : \
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\gaugeConfig.h"\
+	".\megatune.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\repository.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	".\tokenizer.h"\
+	
+
+.\Dconplot.cpp : \
+	".\AnalogMeter.h"\
+	".\BarMeter.h"\
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\Dconplot.h"\
+	".\tuning3D.h"\
+	".\megatune.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\plot3d.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	
+
+.\Dconstants.cpp : \
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\Dconstants.h"\
+	".\Dreqfuel.h"\
+	".\megatune.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	".\userDefined.h"\
+	
+
+.\Denrichments.cpp : \
+	".\AnalogMeter.h"\
+	".\BarMeter.h"\
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\Denrichments.h"\
+	".\megatune.h"\
+	".\megatuneDlg.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	".\userDefined.h"\
+	
+
+.\dirSelect.cxx : \
+	".\dataDialog.h"\
+	".\dirSelect.h"\
+	".\megatune.h"\
+	".\selectList.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	
+
+.\DlogOptions.cpp : \
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\DlogOptions.h"\
+	".\megatune.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	
+
+.\Dreqfuel.cpp : \
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\Dreqfuel.h"\
+	".\megatune.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	
+
+.\Druntime.cpp : \
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\Druntime.h"\
+	".\gaugeConfig.h"\
+	".\megatune.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\repository.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	".\tokenizer.h"\
+	
+
+.\Dsetcomm.cpp : \
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\Dsetcomm.h"\
+	".\megatune.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	
+
+.\tuning3D.cpp : \
+	".\AnalogMeter.h"\
+	".\BarMeter.h"\
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\tuning3D.h"\
+	".\gaugeConfig.h"\
+	".\megatune.h"\
+	".\megatuneDlg.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\plot3d.h"\
+	".\repository.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	".\tokenizer.h"\
+	
+
+.\DveGen.cpp : \
+	".\AnalogMeter.h"\
+	".\BarMeter.h"\
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\tuning3D.h"\
+	".\DveGen.h"\
+	".\gaugeConfig.h"\
+	".\megatune.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\plot3d.h"\
+	".\repository.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	".\tokenizer.h"\
+	".\vegen.h"\
+	".\Vex.h"\
+	
+
+.\gaugeConfig.cpp : \
+	".\byteString.h"\
+	".\controller.h"\
+	".\datalog.h"\
+	".\gaugeConfig.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\symbol.h"\
+	".\tokenizer.h"\
+	
+
+.\genO2.cpp : \
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\genO2.h"\
+	".\megatune.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	
+
+.\genTherm.cpp : \
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\genTherm.h"\
+	".\megatune.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	
+
+.\hexedit.cpp : \
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\hexedit.h"\
+	".\megatune.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	
+
+.\injControl.cpp : \
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\Dreqfuel.h"\
+	".\injControl.h"\
+	".\megatune.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	".\userDefined.h"\
+	
+
+.\injectorSize.cpp : \
+	".\dataDialog.h"\
+	".\injectorSize.h"\
+	".\megatune.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	
+
+.\megatune.cpp : \
+	".\AnalogMeter.h"\
+	".\BarMeter.h"\
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\Druntime.h"\
+	".\megatune.h"\
+	".\megatuneDlg.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	
+
+.\megatune.rc : \
+	".\res\dn_arrow.bmp"\
+	".\res\megatune.ico"\
+	".\res\up_arrow.bmp"\
+	".\res\wue_arrow.bmp"\
+	
+
+.\megatuneDlg.cpp : \
+	".\aeWizard.h"\
+	".\AnalogMeter.h"\
+	".\BarMeter.h"\
+	".\burstLog.h"\
+	".\byteString.h"\
+	".\controller.h"\
+	".\curveEditor.h"\
+	".\Dabout.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\Dconplot.h"\
+	".\Dconstants.h"\
+	".\Denrichments.h"\
+	".\dirSelect.h"\
+	".\DlogOptions.h"\
+	".\Druntime.h"\
+	".\Dsetcomm.h"\
+	".\tuning3D.h"\
+	".\gaugeConfig.h"\
+	".\genO2.h"\
+	".\genTherm.h"\
+	".\hexedit.h"\
+	".\injControl.h"\
+	".\injectorSize.h"\
+	".\megatune.h"\
+	".\megatuneDlg.h"\
+	".\miniTerm.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\msqInfoDlg.h"\
+	".\plot3d.h"\
+	".\portEdit.h"\
+	".\repository.h"\
+	".\selectList.h"\
+	".\Splash.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	".\tableEditor.h"\
+	".\tokenizer.h"\
+	".\tpgen.h"\
+	".\triggerWizard.h"\
+	".\userDefined.h"\
+	".\userHelp.h"\
+	".\userMenu.h"\
+	".\wueWizard.h"\
+	
+
+.\miniDOM.cpp : \
+	".\miniDOM.h"\
+	
+
+.\miniTerm.cpp : \
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\megatune.h"\
+	".\miniTerm.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	
+
+.\msComm.cpp : \
+	".\byteString.h"\
+	".\dataDialog.h"\
+	".\megatune.h"\
+	".\msComm.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	
+
+.\msDatabase.cpp : \
+	".\AnalogMeter.h"\
+	".\BarMeter.h"\
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\tuning3D.h"\
+	".\megatune.h"\
+	".\megatuneDlg.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\plot3d.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	".\userMenu.h"\
+	".\Vex.h"\
+	
+
+.\msqInfoDlg.cpp : \
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\megatune.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\msqInfoDlg.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	
+
+.\parser.cxx : \
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\megatune.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\parser.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	".\Vex.h"\
+	
+
+.\plot3d.cpp : \
+	".\plot3d.h"\
+	
+
+.\portEdit.cpp : \
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\megatune.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\portEdit.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	
+
+.\repository.cpp : \
+	".\AnalogMeter.h"\
+	".\BarMeter.h"\
+	".\burstLog.h"\
+	".\byteString.h"\
+	".\controller.h"\
+	".\curveEditor.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\tuning3D.h"\
+	".\gaugeConfig.h"\
+	".\megatune.h"\
+	".\megatuneDlg.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\plot3d.h"\
+	".\repository.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	".\tokenizer.h"\
+	".\userDefined.h"\
+	".\userHelp.h"\
+	".\userMenu.h"\
+	
+
+.\scaleVe.cpp : \
+	".\AnalogMeter.h"\
+	".\BarMeter.h"\
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\tuning3D.h"\
+	".\megatune.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\plot3d.h"\
+	".\scaleVe.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	
+
+.\selectList.cpp : \
+	".\dataDialog.h"\
+	".\dirSelect.h"\
+	".\megatune.h"\
+	".\selectList.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	
+
+.\Splash.cpp : \
+	".\Splash.h"\
+	
+
+.\StdAfx.cpp : \
+	"..\..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\StdAfx.h"\
+	
+
+.\symbol.cpp : \
+	".\byteString.h"\
+	".\controller.h"\
+	".\datalog.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\symbol.h"\
+	
+
+.\tableEditor.cpp : \
+	".\AnalogMeter.h"\
+	".\BarMeter.h"\
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\Dconplot.h"\
+	".\tuning3D.h"\
+	".\DveGen.h"\
+	".\gaugeConfig.h"\
+	".\hexedit.h"\
+	".\megatune.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\plot3d.h"\
+	".\repository.h"\
+	".\scaleVe.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	".\tableEditor.h"\
+	".\tokenizer.h"\
+	".\transformTable.h"\
+	
+
+.\tokenizer.cpp : \
+	".\tokenizer.h"\
+	
+
+.\tpgen.cpp : \
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\megatune.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	".\tpgen.h"\
+	
+
+.\transformTable.cpp : \
+	".\AnalogMeter.h"\
+	".\BarMeter.h"\
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\tuning3D.h"\
+	".\megatune.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\plot3d.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	".\transformTable.h"\
+	
+
+.\triggerWizard.cpp : \
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\megatune.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	".\triggerWizard.h"\
+	
+
+.\userDefined.cpp : \
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\megatune.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	".\userDefined.h"\
+	".\userHelp.h"\
+	
+
+.\userHelp.cpp : \
+	".\byteString.h"\
+	".\dataDialog.h"\
+	".\megatune.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	".\userHelp.h"\
+	
+
+.\userMenu.cpp : \
+	".\AnalogMeter.h"\
+	".\BarMeter.h"\
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\gaugeConfig.h"\
+	".\megatune.h"\
+	".\megatuneDlg.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\parser.h"\
+	".\repository.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	".\tokenizer.h"\
+	".\userMenu.h"\
+	
+
+.\vegen.cxx : \
+	".\dataDialog.h"\
+	".\megatune.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	".\vegen.h"\
+	".\Vex.h"\
+	
+
+.\Vex.cpp : \
+	".\Vex.h"\
+	
+
+.\wueWizard.cpp : \
+	".\byteString.h"\
+	".\controller.h"\
+	".\dataDialog.h"\
+	".\datalog.h"\
+	".\Druntime.h"\
+	".\gaugeConfig.h"\
+	".\megatune.h"\
+	".\msComm.h"\
+	".\msDatabase.h"\
+	".\repository.h"\
+	".\stringConstants.h"\
+	".\symbol.h"\
+	".\tokenizer.h"\
+	".\userDefined.h"\
+	".\wueWizard.h"\
+	

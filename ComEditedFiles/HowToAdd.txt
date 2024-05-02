@@ -1,0 +1,72 @@
+Open MT project in VC
+Create a ATL object, menu Insert/New ATL Object...
+
+Answer YES to the question if yoy want to add ATL support to project
+
+Select "Simple object" ans click "Next"
+
+Type in "Application" in "Short name" edit box
+
+Copy the files into the project directory, overwrite existing files
+
+Add the ComSymbol.cpp, ComSymbol.h file to the project
+
+In symbol.h, add "bool isSigned() const { return _signed; }" at the end of the symbol class
+
+In controler.h, add the code below at the end of the controllerDescriptor class
+
+   int symbolCount() {
+      return symbolTable.size();
+   }
+
+   symbol *symbols(int index) 
+   {
+      symMapIter iter = symbolTable.begin();
+      for(int i = 0; i < index; i++) {
+         if(iter == symbolTable.end()) return NULL;
+         iter++;
+      }
+      return (*iter).second;
+   }
+
+In Megatune.cpp the InitInstance operation change/add:
+// We want to init and start MegaTune UI even if started from a Com client
+/*
+   if (cmdInfo.m_bRunEmbedded || cmdInfo.m_bRunAutomated) {
+      return TRUE;
+   }
+*/
+
+// Always update the registry with Megatune Com server settings
+
+   _Module.UpdateRegistryFromResource(IDR_MEGATUNE1, TRUE);
+   _Module.RegisterServer(TRUE);
+
+
+Build the project
+
+
+
+To remove the Megatune Com setting from registry run "Megatune /unregserver"
+
+
+How to use the API in VB
+
+The following code is an exaple in VB how you can read two symbols and show them in a edit bos in a form
+
+Dim mt As Megatune.Application
+Dim seconds As ISymbol
+Dim Coolant As ISymbol
+
+Private Sub Form_Load()
+    Set mt = CreateObject("Megatune.Application")
+    Set seconds = mt.Symbol("secl")
+    Set Coolant = mt.Symbol("coolant")
+    Timer1.Interval = 200
+End Sub
+
+Private Sub Timer1_Timer()
+    txtSeconds.Text = seconds.ValueString(0)
+    txtCoolant.Text = Coolant.ValueString(0)
+End Sub
+

@@ -1,0 +1,94 @@
+THIS IS A COPY OF THE CONTENTS OF INI-DOC.TXT
+Data types:
+*  byte   - scalar 8-bit integer.
+   int    - scalar 16-bit integer.
+   double - scalar double precision float.
+   string - dynamic length collection of characters.
+
+   Boolean results may be derived from any value, with 0, 0.0 and
+   "" being false and all other values being true.
+
+Operators in order of descending precendence:
+   () grouping
+
+*  [] indexing NOT DONE
+
+   !  logical NOT
+   ~  bitwise NOT
+   -  unary minus = negation
+
+   *  multiplication
+   /  division
+   %  modulus
+
+   +  addition
+   -  subtraction
+
+   << left shift
+   >> right shift
+
+   <  less than
+   <= less than or equal to
+   == equal to
+   >  greater than
+   >= greater than or equal to
+   != not equal to
+
+   &  bitwise AND
+   ^  bitwise XOR
+
+   |  bitwise OR
+
+   && logical AND
+
+   || logical OR
+
+   ?: conditional
+
+Built-in math functions and constants:
+   PI
+   acos(double)
+   asin(double)
+   atan(double)
+   atan2(double, double)
+   ceil(double)
+   cos(double)
+   exp(double)
+   fabs(double)
+   floor(double)
+   fmod(double, double)
+   log(double)
+   log10(double)
+   pow(double, double)
+   sin(double)
+   sqrt(double)
+   tan(double)
+   timeNow
+
+MS-specific functions:
+
+   itable(val, "filename") - Inverse table lookup.  Given a value,
+      it returns the index of the table value nearest that value.
+
+   table(idx, "filename") - Causes the table to be read on the first
+      invocation.  Indexes into the table and returns the value
+      contained at the specified location.  Table files may contain
+      an arbitrary number of 16-bit signed or unsigned quantities.
+
+   tempCvt(x) - Converts Fahrenheit temperature to user-selected
+      units.  Does nothing if temperature is set to F.
+
+   vexInterp(rpm, load, page, "file.vex") - Performs interpolation
+      of a vex file using the same algorithm as is used in MS-I and
+      MS-II code.
+
+NOT DONE:
+   type linInterp(Xi, X0,Y0, X1,Y1) - Returns a value with the
+      same type as Xi interpolated from the given values.  If Xi
+      < X0, then Y0 is returned; if Xi > X1, then Y1 is returned
+      (i.e., no extrapolation is done).
+
+   int    int(value)  - Coerces the argument to the specified type.
+   byte   byte(value)
+   double double(value)
+THIS IS A COPY OF THE CONTENTS OF INI-DOC.TXT
